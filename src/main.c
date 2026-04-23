@@ -3,10 +3,13 @@
 // PARTE 3 - DERIVADA DE FUNÇÃO
 float a, x, b, c, f;
 
-float derivada(float fd) { // CRIADA A FUNÇÃO QUE DERIVA A FUNÇÃO ORIGINAL --> MIGUEL MARCELO (569467)
-    
+float derivada(){    
     f = a*(x*x) + b*x + c;
-    fd = a*x + b;
+    return 2*a*x + b;
+}
+
+int main() { // CRIADA A FUNÇÃO QUE DERIVA A FUNÇÃO ORIGINAL --> MIGUEL MARCELO (569467)
+    
     printf("Agora insira os valores da variaveis: \n"); // CRIADA INTERFACE QUE RECEBE E GUARDA AS VARIÁVEIS 
                                                         // MIGUEL MARCELO (569467)
     printf("Valor de a: \n");
@@ -21,4 +24,10 @@ float derivada(float fd) { // CRIADA A FUNÇÃO QUE DERIVA A FUNÇÃO ORIGINAL -
     printf("Valor de c: \n");
     scanf("%f", &c);
 
+    float fd = derivada();
+    printf("f(x) = %f\n", f);
+    printf("f'(x) = %f\n", fd);
+
+
+    return 0;
 }
