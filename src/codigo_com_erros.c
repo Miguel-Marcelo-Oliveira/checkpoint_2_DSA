@@ -1,13 +1,13 @@
 #include "stdio.h"
 
 int main() {
-    float nota1, nota2, media; // ANTES: float nota1, nota2, media -> Adicionado um ";" no final. - FELIPE DOERN (568798)
+    float nota1, nota2, media;  // ANTES: float nota1, nota2, media -> Adicionado um ";" no final. - FELIPE DOERN (568798)
 
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
 
     printf("Digite a segunda nota: ");
-    scanf("%f", nota2);
+    scanf("%f", &nota2);         // ANTES: ("%f", nota2) -> Adicionado "&" antes de nota2 - FELIPE DOERN (568798)
 
     media = nota1 + nota2 / 2;
 
