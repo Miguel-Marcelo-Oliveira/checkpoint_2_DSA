@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// PARTE 2
 void derivada(int a, int x, int b, int c, int f) {
     
     f = a*(x*x) + b*x + c;
@@ -48,3 +49,4 @@ int opcao;
     return 0; 
 }
 
+// PARTE 3
