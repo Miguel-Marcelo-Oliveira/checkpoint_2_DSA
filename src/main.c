@@ -16,7 +16,7 @@ int main(){
     printf("=== SISTEMA DE MEDIA FINAL ===\n");
     printf("1 - Insira sua pontuação anual\n");
     printf("2 - Calcule sua media\n");
-    printf("3 - Verifique sua situação\n");
+    printf("3 - Verifique sua situacao\n");
     printf("4 - Ver o seu resultado\n");
     printf("5 - Calcule sua derivada\n");
     printf("6 - Sair\n");
@@ -65,7 +65,7 @@ int main(){
         break;
 
         default:
-        printf("\nDigite uma das opções acima!");
+        printf("\nDigite uma das opcoes acima!");
 
       
     }
