@@ -70,7 +70,7 @@ int main(){
     float fd = derivada();
     printf("f(x) = %f\n", f);
     printf("f'(x) = %f\n", fd);
-// CORRIGIDA A FUINÇÃO QUE CALCULA A DERIVADA 
+// CORRIGIDA A FUNÇÃO QUE CALCULA A DERIVADA 
 // E EXIBIÇÃO DO RESULTADO -->  MIGUEL MARCELO (569467)
 
 
