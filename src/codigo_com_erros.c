@@ -1,7 +1,7 @@
 #include "stdio.h"
 
 int main() {
-    float nota1, nota2, media
+    float nota1, nota2, media; // ANTES: float nota1, nota2, media -> Adicionado um ";" no final. - FELIPE DOERN (568798)
 
     printf("Digite a primeira nota: ");
     scanf("%f", &nota1);
