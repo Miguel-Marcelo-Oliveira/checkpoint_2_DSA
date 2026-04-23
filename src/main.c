@@ -78,13 +78,13 @@ int main(){
 
             case 5:
             {
-            // PARTE 3 - DERIVADA DE FUNÇÃO
-            // CRIADA A FUNÇÃO QUE DERIVA A FUNÇÃO ORIGINAL --> MIGUEL MARCELO (569467)
+            // PARTE 3 - DERIVADA DE FUNCAO
+            // CRIADA A FUNCAO QUE DERIVA A FUNCAO ORIGINAL --> MIGUEL MARCELO (569467)
 
             float fd;
 
             printf("\n--- CALCULAR DERIVADA ---\n");
-            printf("Agora insira os valores da variaveis: \n"); // CRIADA INTERFACE QUE RECEBE E GUARDA AS VARIÁVEIS 
+            printf("Agora insira os valores da variaveis: \n"); // CRIADA INTERFACE QUE RECEBE E GUARDA AS VARIAVEIS 
                                                             // MIGUEL MARCELO (569467)
             printf("Valor de a: \n");
             scanf("%f", &a);
@@ -102,8 +102,8 @@ int main(){
 
             printf("f(x) = %.2f\n", f);
             printf("f'(x) = %.2f\n", fd);
-            // CORRIGIDA A FUNÇÃO QUE CALCULA A DERIVADA 
-            // E EXIBIÇÃO DO RESULTADO -->  MIGUEL MARCELO (569467)
+            // CORRIGIDA A FUNCAO QUE CALCULA A DERIVADA 
+            // E EXIBICAO DO RESULTADO -->  MIGUEL MARCELO (569467)
             }
             break;
 
