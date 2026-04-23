@@ -13,36 +13,59 @@ float derivada(){
 int main(){
     int opcao;
 
-
-
-    printf("SISTEMA DE MÉDIA FINAL");
+    printf("=== SISTEMA DE MEDIA FINAL ===\n");
+    printf("1 - Insira sua pontuação anual\n");
+    printf("2 - Calcule sua media\n");
+    printf("3 - Verifique sua situação\n");
+    printf("4 - Ver o seu resultado\n");
+    printf("5 - Calcule sua derivada\n");
+    printf("6 - Sair\n");
+    printf("Escolha uma opcao: ");
+    scanf("%d", &opcao);
+    
     switch (opcao) {
         case 1:
-        printf("Insira sua pontuação anual");
+        printf("\nInsira sua pontuacao anual:");
         break; 
     
         case 2:
-        printf("Calcule sua média");
-        break;
+        printf("\nCalcule sua media");
+        break; 
 
         case 3:
-        printf("Verifique sua situação:");
+        printf("\nVerifique sua situacao:");
         break;
 
         case 4:
-        printf("Ver o seu resultado");
+        printf("\nVer o seu resultado");
         break;
 
         case 5:
-        printf("Calcule sua derivada");
-        break;
+            printf("Agora insira os valores das variaveis:\n");
+
+            printf("Valor de a: ");
+            scanf("%f", &a);
+
+            printf("Valor de x: ");
+            scanf("%f", &x);
+
+            printf("Valor de b: ");
+            scanf("%f", &b);
+
+            printf("Valor de c: ");
+            scanf("%f", &c);
+
+            float fd = derivada();        
+            printf("f(x)  = %.2f\n", f);
+            printf("f'(x) = %.2f\n", fd);
+            break;
 
         case 6:
-        printf("Sair");
+        printf("\nSair.");
         break;
 
         default:
-        printf("Digite uma das opções acima!");
+        printf("\nDigite uma das opções acima!");
 
       
     }
