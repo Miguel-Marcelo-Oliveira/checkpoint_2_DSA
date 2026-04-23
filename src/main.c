@@ -27,7 +27,9 @@ int main() { // CRIADA A FUNÇÃO QUE DERIVA A FUNÇÃO ORIGINAL --> MIGUEL MARC
     float fd = derivada();
     printf("f(x) = %f\n", f);
     printf("f'(x) = %f\n", fd);
-
+// CORRIGIDA A FUINÇÃO QUE CALCULA A DERIVADA 
+// E EXIBIÇÃO DO RESULTADO -->  MIGUEL MARCELO (569467)
+    printf("Valor de a: \n");
 
     return 0;
 }
